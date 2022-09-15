@@ -16,7 +16,8 @@ on:
 env:
   GAR_INFO: northamerica-northeast2-docker.pkg.dev/thedevproj/tdpartifs
   PAYMENT_APP_NAME: rs-payment
-  build-payment:
+jobs:
+ build-payment:
     name: Building PAYMENT IMAGE
     runs-on: ubuntu-latest
 
